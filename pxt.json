@@ -1,0 +1,30 @@
+{
+    "name": "extension",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.1.21",
+        "tag": "v5.1.21",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9387c42d41a86d09c5c3b7d8e8f5cd64b14f3730",
+        "target": "5.1.22",
+        "pxt": "8.6.27",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
