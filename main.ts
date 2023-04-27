@@ -3,11 +3,8 @@ namespace flap {
      * make flappy:bit flap
      */
     //% blockId=arcadegames
-    //%block=flappybit $boolean
-
-
-
- export function flap(bool: boolean){
+    //%block=flappybit $bool
+export function flap(bool: boolean){
     if (bool) {
      let flapping: number
     flapping = 4
